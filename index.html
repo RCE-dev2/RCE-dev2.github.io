@@ -94,6 +94,10 @@
                padding-left:10%;
             }
 
+            .navigation-link.navigation-scroll.w--current {
+             border-bottom-color: white;
+             color: rgba(61, 61, 61, .9);
+            }
 
          @media (max-width: 900px) {
             .grid { display: block; }
@@ -116,14 +120,14 @@
    </head>
    <body>
       <div class="navbar-scroll w-hidden-medium w-hidden-small w-hidden-tiny w-nav" data-animation="default" data-collapse="medium" data-duration="400" data-ix="slide-out-navigation-scroll-on-load" style="background-color: transparent;display: none; transform-style: preserve-3d; transform: translateX(0px) translateY(-110px) translateZ(0px); transition: transform 500ms ease 0s;">
-         <div class="w-container">
+         <div class="w-container"  style="    margin-left: 10px;">
             <a class="logo logo-block w-nav-brand w--current" href="#" style="font-size:40px; color:white">
                RCE
             </a>
             <nav class="w-nav-menu" role="navigation">
-               <a class="navigation-link navigation-scroll w-nav-link w--current" href="#about" style="max-width: 1170px;color:white">About</a>
-               <a class="navigation-link navigation-scroll w-nav-link" href="#updates" style="max-width: 1170px;color:white">Updates</a>
-               <a class="navigation-link navigation-scroll w-nav-link" href="#contact" style="max-width: 1170px;color:white">Contact</a>
+               <a class="navigation-link navigation-scroll w-nav-link w--current" href="#about" style="max-width: 1170px;color:white; left: 185px;">About</a>
+               <a class="navigation-link navigation-scroll w-nav-link" href="#updates" style="max-width: 1170px;color:white; left: 185px;">Updates</a>
+               <a class="navigation-link navigation-scroll w-nav-link" href="#contact" style="max-width: 1170px;color:white; left: 185px;">Contact</a>
             </nav>
             <div class="w-nav-button">
                <div class="w-icon-nav-menu"></div>
@@ -132,11 +136,11 @@
          <div class="w-nav-overlay" data-wf-ignore=""></div>
       </div>
       <div class="navigation w-nav" data-animation="default" data-collapse="medium" data-contain="1" data-duration="400">
-         <div class="w-container">
+         <div class="w-container" style="    margin-left: 10px;">
             <a class="navigation-link w-nav-link w--current" href="#" style="font-size:50px;">RCE</a>
       <nav class="navigation-menu w-nav-menu" role="navigation">
-      <a class="navigation-link w-nav-link w--current" href="#about" style="max-width: 1170px; color:white">About</a><a class="navigation-link w-nav-link" href="#updates" style="max-width: 1170px; color:white">Updates</a>
-      <a class="navigation-link w-nav-link" href="#contact" style="max-width: 1170px; color:white">Contact</a>
+      <a class="navigation-link w-nav-link w--current" href="#about" style="max-width: 1170px; color:white; left: 185px;">About</a><a class="navigation-link w-nav-link" href="#updates" style="max-width: 1170px; color:white; left: 185px;">Updates</a>
+      <a class="navigation-link w-nav-link" href="#contact" style="max-width: 1170px; color:white; left: 185px;">Contact</a>
          </nav>
             <div class="menu w-nav-button">
                <div class="w-icon-nav-menu"></div>
